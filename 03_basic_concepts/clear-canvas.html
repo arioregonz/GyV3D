@@ -10,7 +10,7 @@
 </head>
 
 <body onload="init()">
-    <canvas id="myCanvas" width="640" height="480"></canvas>
+    <canvas id="myCanvas" width="1000" height="500"></canvas>
 </body>
 
 <script>
@@ -33,13 +33,13 @@
             console.log("Failed to get the rendering context for WebGL");
             return;
         }
-
+        
         // Set clear color
-        gl.clearColor(0.0, 0.0, 0.0, 1.0);
+        gl.clearColor(1.0, 0.0, 1.0, 0.25);
 
         // Clear canvas
         gl.clear(gl.COLOR_BUFFER_BIT);
     }
 </script>
 
-</html>
+</html>+
